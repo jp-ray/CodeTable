@@ -1,0 +1,10 @@
+git log
+git status
+git commit -m "MSG"
+git pull origin BRANCH_NAME
+git push origin BRANCH_NAME
+git reset --hard HEAD  -----non commited changes deleted
+git reset --hard HEAD~   --------premanantly delete no pushed commit or recent commit
+git reset --hard HEAD~2   --------delete last 2 commit
+
+$ git cherry-pick 6773efc9dce89f128ee370f0cf7254705e7163e2              -----------
